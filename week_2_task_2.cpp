@@ -17,5 +17,8 @@ int main()
 	std::cout << "my gyrus count:\n";
 	std::cout << **p;
 
+	free(p);
+	free(p_mid);
+
 	return 0;
 }
